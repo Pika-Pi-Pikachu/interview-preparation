@@ -10,7 +10,7 @@ const baseUrl = `${process.env.NEXT_PUBLIC_API_URL}/api` ;
 
  const baseQuery = fetchBaseQuery({
   baseUrl,
-  
+  credentials: 'include',
 });
 
 export const baseApi = createApi({
