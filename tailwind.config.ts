@@ -56,12 +56,12 @@ const config: Config = {
 
       /* 🔹 Font weights and custom typography scale */
       fontWeight: {
-        light: 300,
-        normal: 400,
-        medium: 500,
-        semibold: 600,
-        bold: 700,
-        extrabold: 800,
+       light: "300",
+      normal: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
+        extrabold: "800",
       },
       fontSize: {
         'heading-xl': ['3rem', { lineHeight: '1.1', letterSpacing: '-0.02em' }], // 48px
