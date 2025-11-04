@@ -42,15 +42,6 @@ const LeftHero = () => {
         boost your skills and get hired.
       </p>
 
-      <div className="flex flex-col sm:flex-row gap-4 lg:gap-10">
-        <LinkButton href="/practical-interviews" ariaLabel="Start Practicing">
-          Start Practicing
-        </LinkButton>
-
-        <LinkButton href="/mock-interviews" variant="outline" ariaLabel="View Questions">
-          View Questions
-        </LinkButton>
-      </div>
 
       <div className="flex items-center gap-6 text-sm text-neutral-400 mt-4">
         <div className="flex items-center gap-2 hover:text-indigo-300 transition-colors">

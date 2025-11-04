@@ -44,17 +44,7 @@ const JoinCommunity = () => {
       </div>
 
       {/* CTA */}
-      <div className="mt-10 lg:mt-16 text-center">
-        
-
-          <LinkButton href="/register" ariaLabel="Join Our Community" size="md">Join Our Community</LinkButton>
-        <p className="mt-4 text-gray-400 text-md">
-          Already a member?{' '}
-          <Link href="/login" className="text-indigo-300 hover:text-indigo-200 underline">
-            Log in here
-          </Link>
-        </p>
-      </div>
+      
     </section>
   );
 };

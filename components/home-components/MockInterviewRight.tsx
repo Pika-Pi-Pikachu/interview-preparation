@@ -13,7 +13,7 @@ const MockInterviewRight = () => {
         ))}
       </div>
 
-      <Link href="/ai-interview"
+      <Link href="https://mock-mate-three-delta.vercel.app/"
       className="w-full text-white text-lg bg-gradient-to-b from-[#171532] to-[#08090d] backdrop-blur-md border border-gray-700 hover:bg-indigo-700 py-4 rounded-md transition-colors mt-8 font-medium flex items-center justify-center gap-2">
         <FaCalendarAlt />
         Schedule Interview
