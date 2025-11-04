@@ -95,6 +95,12 @@ const config: Config = {
         slide: 'slide 750ms ease-in-out',
         appear: 'appear 750ms ease-in-out',
       },
+
+       gridTemplateColumns: {
+        // custom auto-fit grid
+        'auto-fit': 'repeat(auto-fit, minmax(250px, 1fr))',
+        'auto-fill': 'repeat(auto-fill, minmax(250px, 1fr))',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],

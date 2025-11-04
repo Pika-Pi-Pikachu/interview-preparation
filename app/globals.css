@@ -29,11 +29,6 @@
 
 html, body, #__next {
   background-color: var(--background) !important;
-  /* two radial gradients for the subtle grid + a dark overlay to allow section gradients on top */
-  /* background-image:
-    radial-gradient(var(--mock-grid-color) 1px, transparent 1px),
-    radial-gradient(var(--mock-grid-color) 1px, transparent 1px); */
-    /* linear-gradient(180deg, rgba(10,8,25,0.85), rgba(20,14,40,0.6)); */
   background-image:url(https://mock-mate-three-delta.vercel.app/pattern.png);
   background-position: top;
   background-repeat: no-repeat;

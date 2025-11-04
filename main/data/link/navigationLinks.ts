@@ -6,7 +6,7 @@ export const NAVIGATION_LINKS: INavLinkInterface[] = [
 
 
 export const NAVIGATION_LINKS_DROPDOWN = [
-  { label: 'AI Interviews', href: '/ai-interview', },
-  { label: 'Mock Interviews', href: '/mock-interviews',  },
-  { label: 'Practical Interview', href: '/practical-interviews', },
+  { label: 'AI Learning', href: '/ai-interview', },
+  { label: 'Practice DSA', href: '/tips-&-guides',  },
+  { label: 'Analyze Resume', href: '/question-bank', },
 ];
